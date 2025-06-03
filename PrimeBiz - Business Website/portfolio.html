@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | PrimeBiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+        <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Prime<span>Biz</span></a>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+             <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link ">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our recent projects and success stories</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+                <button class="filter-btn" data-filter="consulting">Consulting</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-items">
+                <!-- Item 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="images/12.jpg" alt="E-commerce Website">
+                        <div class="portfolio-overlay">
+                            <h3>Global Fashion E-commerce</h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Global Fashion E-commerce</h3>
+                        <p>Custom e-commerce platform with advanced product customization features</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="images/13.png" alt="Fitness Mobile App">
+                        <div class="portfolio-overlay">
+                            <h3>FitTrack Mobile App</h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>FitTrack Mobile App</h3>
+                        <p>Cross-platform fitness tracking application with AI-powered recommendations</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="portfolio-item" data-category="web,marketing">
+                    <div class="portfolio-image">
+                        <img src="images/14.png" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <h3>TechCorp Website Redesign</h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>TechCorp Website Redesign</h3>
+                        <p>Complete website overhaul with integrated marketing automation</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="portfolio-item" data-category="consulting">
+                    <div class="portfolio-image">
+                        <img src="images/15.png" alt="Business Strategy">
+                        <div class="portfolio-overlay">
+                            <h3>Retail Chain Digital </h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Retail Chain Digital </h3>
+                        <p>Omnichannel strategy implementation for national retail brand</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="images/16.jpeg" alt="Food Delivery App">
+                        <div class="portfolio-overlay">
+                            <h3>QuickBite Food Delivery</h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>QuickBite Food Delivery</h3>
+                        <p>Native iOS and Android apps with real-time order tracking</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="portfolio-item" data-category="web,marketing">
+                    <div class="portfolio-image">
+                        <img src="images/17.png" alt="Marketing Campaign">
+                        <div class="portfolio-overlay">
+                            <h3>Startup Launch Campaign</h3>
+                            <a href="#" class="portfolio-link">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Startup Launch Campaign</h3>
+                        <p>Integrated digital marketing campaign for tech startup</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Modal -->
+    <div class="modal" id="caseStudyModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Preview -->
+    <section class="testimonials-preview">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>PrimeBiz transformed our online presence and helped us increase online sales by 240% in just six months.</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="client">
+                        <img src="images/a.jpg" alt="Lisa Thompson">
+                        <div class="client-info">
+                            <h4>Lisa Thompson</h4>
+                            <p>CEO, Global Fashion</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="testimonials.html" class="btn btn-outline">Read More Testimonials</a>
+        </div>
+    </section>
+
+    
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>PrimeBiz</h3>
+                    <p>Innovative business solutions for the digital age.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Business Ave, Suite 500, San Francisco, CA</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@primebiz.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PrimeBiz. All Rights Reserved. Developed By <b>Mohammed Sasni</b></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

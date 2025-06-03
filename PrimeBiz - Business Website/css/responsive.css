@@ -1,0 +1,137 @@
+/* Tablets and Small Laptops */
+@media (max-width: 992px) {
+    .hero .container,
+    .about-preview .container {
+        flex-direction: column;
+    }
+
+    .hero-content,
+    .about-content {
+        padding-right: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .hero-content .btn,
+    .about-content .btn {
+        display: block;
+        margin: 10px auto;
+        max-width: 200px;
+    }
+
+    .service-detail {
+        flex-direction: column;
+    }
+
+    .service-detail.reverse {
+        flex-direction: column;
+    }
+
+    .service-image,
+    .service-text {
+        width: 100%;
+    }
+
+    .contact-main .container {
+        flex-direction: column;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        margin: 15px 0;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .nav-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio-items {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 576px) {
+    section {
+        padding: 50px 0;
+    }
+
+    .hero {
+        padding-top: 100px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .services-grid,
+    .values-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-buttons {
+        justify-content: flex-start;
+    }
+
+    .portfolio-items {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+    }
+}
