@@ -1,7 +1,8 @@
 ````markdown
 Front-End Web Development Projects 🚀
 
-Welcome to the "Front-End Web Development Projects" repository by Me. (https://github.com/Mohammed-Sasni)!
+Welcome to the "Front-End Web Development Projects" repository by Me.
+(https://github.com/Mohammed-Sasni)!
 
 This repository currently features a fully designed Business Website Named "PrimeBiz". Built using HTML,
 CSS, and JavaScript. It's part of an ongoing effort to sharpen front-end development
