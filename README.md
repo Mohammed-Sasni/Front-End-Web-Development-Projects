@@ -3,7 +3,9 @@ Front-End Web Development Projects 🚀
 
 Welcome to the "Front-End Web Development Projects" repository by Me. (https://github.com/Mohammed-Sasni)!
 
-This repository currently features a fully designed Business Website Named "PrimeBiz". Built using HTML, CSS, and JavaScript. It's part of an ongoing effort to sharpen front-end development skills by building real-world UI projects.
+This repository currently features a fully designed Business Website Named "PrimeBiz". Built using HTML,
+CSS, and JavaScript. It's part of an ongoing effort to sharpen front-end development
+skills by building real-world UI projects.
 
 ---
 
@@ -11,7 +13,9 @@ This repository currently features a fully designed Business Website Named "Prim
 
 🖥️ Overview
 
-The "PrimeBiz - Business Website" project is a responsive, multi-section website template designed for small to medium-sized businesses. It offers a clean layout, intuitive navigation, and modern styling to create a professional online presence.
+The "PrimeBiz - Business Website" project is a responsive, multi-section website template designed for small
+to medium-sized businesses. It offers a clean layout, intuitive navigation, and modern styling to
+create a professional online presence.
 
 🔍 Key Features
 
