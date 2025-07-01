@@ -1,5 +1,4 @@
-````markdown
-Front-End Web Development Projects 🚀
+# Front-End Web Development Projects 
 
 Welcome to the "Front-End Web Development Projects" repository by Me.
 (https://github.com/Mohammed-Sasni)!
@@ -10,15 +9,19 @@ skills by building real-world UI projects.
 
 ---
 
-📌 Featured Project: Business Website
+## Featured Projects : 
 
-🖥️ Overview
+| Project           | Preview Link                                               |
+|-------------------|------------------------------------------------------------|
+| Business Website  | [Live Demo](https://primebiz-mohammed-sasni.netlify.app/)  |
 
-The "PrimeBiz - Business Website" project is a responsive, multi-section website template designed for small
+### Overview
+
+The project is a responsive, multi-section website template designed for small
 to medium-sized businesses. It offers a clean layout, intuitive navigation, and modern styling to
 create a professional online presence.
 
-🔍 Key Features
+### Key Features
 
 - Responsive design for desktop, tablet, and mobile
 - Hero section with a call-to-action (CTA)
@@ -29,7 +32,7 @@ create a professional online presence.
 
 ---
 
-🛠️ Tech Stack
+### Tech Stack
 
 - HTML5
 - CSS3
@@ -38,7 +41,7 @@ create a professional online presence.
 
 ---
 
-📂 Project Structure
+### Project Structure
 
 ```plaintext
 Front-End-Web-Development-Projects/
@@ -51,7 +54,7 @@ Front-End-Web-Development-Projects/
 
 ---
 
-🚀 How to Run the Project
+### How to Run the Project
 
 1. **Clone the Repository**
 
@@ -72,7 +75,7 @@ Front-End-Web-Development-Projects/
 
 ---
 
-📈 Future Additions
+### Future Additions
 
 This repository will grow with more front-end projects such as:
 
@@ -85,25 +88,19 @@ Stay tuned for updates!
 
 ---
 
-📄 License
+### License
 
 This project is licensed under the [MIT License](LICENSE).
 You’re free to use and modify the code with proper attribution.
 
 ---
 
-🔗 Connect with Me
+### Connect with Me
 
 * GitHub: [@Mohammed-Sasni](https://github.com/Mohammed-Sasni)
 * LinkedIn: [linkedin.com/in/mohammed-sasni](https://linkedin.com/in/mohammed-sasni)
 
 ---
 
-🌟 If you found this helpful, give it a ⭐️ to support my journey in front-end development!
+#### If you found this helpful, give it a ⭐️ to support my journey in front-end development!
 
-```
-
----
-
-Let me know when you add more projects—I’ll help you scale this `README.md` accordingly.
-```
